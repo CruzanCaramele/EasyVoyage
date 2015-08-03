@@ -25,6 +25,7 @@ function onPlaceChanged() {
 google.maps.event.addDomListener(window, 'load', function() {
   initializeAutocomplete('destination');
     setTimeout(function(){
+          //set place holder to nothing
           $('#destination').attr('placeholder', '')
 
     }, 300)
